@@ -1,3 +1,4 @@
+// POJO-->Plain Old Java Object
 class Addition{
     private int a,b;
     public Addition(){

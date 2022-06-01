@@ -2,7 +2,7 @@ class Test{
    public int m1(){
      try{
         /*----*/
-        System.out.println("Inside Tye...");
+        System.out.println("Inside Tye...';");
         System.exit(0);
      }
      catch(Exception e){

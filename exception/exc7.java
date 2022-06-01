@@ -1,4 +1,4 @@
-import java.util.Scanner;
+.import java.util.Scanner;
 class IBE extends Exception{
    public IBE(){
      super("Aapke Pass Paisa Nahi Hai....");

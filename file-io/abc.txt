@@ -1,1 +1,6 @@
-JAVA IS SIMPLE
+Java is very simple. Everyone can easily learn java.
+Java is object oriented programming languate.
+Jav is robust.
+Java is platform independent.
+Java is architectural neutral.
+Java is multithreaded.

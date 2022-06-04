@@ -5,10 +5,12 @@ import java.io.Serializable;
 import java.io.ObjectInputStream;
 import java.io.FileInputStream;
 class Customer implements Serializable{
+  private static final long SerialVersionUID = 10l;
   private int id;
   private String name;
   private transient String mobile;
   private int age;
+  
   public Customer(int id, String name, String mobile,int age)  {
     this.id = id;
     this.age = age;
@@ -56,12 +58,12 @@ class ReadObject{
          
          ObjectInputStream ois = new ObjectInputStream(fin);
          
-         Customer c = (Custmer)ois.readObject(); // Object
+         Customer c = (Customer)ois.readObject(); // Object
          System.out.println(c.getId()+"  "+c.getName()+" "+c.getMobile()+"  "+c.getAge());
          
       }
       catch(Exception e){
-      
+         e.printStackTrace();      
       }
    }
 }
